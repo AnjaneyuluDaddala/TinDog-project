@@ -1,0 +1,88 @@
+body{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Yuji Syuku', serif;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 110vh;
+}
+
+   h1,h2,h3{
+        font-weight: bolder;
+    }
+
+   .dog-image{
+    padding-left: 5px;
+    margin-bottom: -50px;
+    
+   }
+   #dog{
+    padding: 0;
+    margin-top: 60px;
+    margin-bottom:-48px ;
+
+   }
+   #white{
+    background-color: aliceblue;
+    color: black;
+   }
+   #black{
+    color: white;
+    border: 2px solid white;
+   }
+   .two{
+    background-color: aliceblue;
+   }
+    
+     
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+
+
+     #eye{
+        background-color: skyblue;
+        height: 50px;
+        width: 50px;
+        border-radius: 15px;
+     }
+     
+
+    .three{
+        background-color: rgb(250, 249, 249);
+        text-align: center;
+       
+        
+    }
+    #space{
+        border-radius: 100%;
+    }
+    .com{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    #sp{
+        margin-left: 40px;
+        margin-right: 40px;
+        border-radius: 40px;
+
+    }
+    .book{
+        background-image: url("https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        object-fit: cover;
+    }
+
+    
+
